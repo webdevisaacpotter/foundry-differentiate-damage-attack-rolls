@@ -1,6 +1,14 @@
 .atk-flavor-txt {
 	color: #6f71bd;
 }
+.atk-flavor-txt::before {
+	content: '⚔️';
+	margin-right: 3px;
+}
 /* .dmg-flavor-txt {
 	color: #CCCCCC;
 } */
+.dmg-flavor-txt::before {
+	content: '🩸';
+	margin-right: 3px;
+}
