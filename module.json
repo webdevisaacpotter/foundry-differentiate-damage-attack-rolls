@@ -2,11 +2,11 @@
   "name": "Differentiate Attack and Damage Rolls",
   "title": "Differentiate Attack and Damage Rolls",
   "description": "Differentiate Attack and Damage Rolls in the Chat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.9.9",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
   "authors": [
     {
       "name": "Isaac",
@@ -32,7 +32,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json" 
     }
   ],
   "manifest": "https://github.com/webdevisaacpotter/foundry-differentiate-damage-attack-rolls/releases/latest/download/module.json",
