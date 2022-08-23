@@ -80,12 +80,8 @@ function RestUser(e) {
 }
 
 // Setup chat buttons click
-$( 
-  () => {
-    if(game.user.isGM)
-      $(document.body).on("click", `.restUserButton`, RestUser);
-  }
-)
+$(document.body).on("click", `.restUserButton`, RestUser);
+
 // Long Rest GM Consent
 var _GM;
 Hooks.on("renderLongRestDialog", (a, b, c) => {
