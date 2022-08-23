@@ -2,7 +2,7 @@
   "name": "Differentiate Attack and Damage Rolls",
   "title": "Differentiate Attack and Damage Rolls",
   "description": "Differentiate Attack and Damage Rolls in the Chat",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
