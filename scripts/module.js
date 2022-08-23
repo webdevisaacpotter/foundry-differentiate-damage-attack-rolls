@@ -1,6 +1,6 @@
 // Differentiate attack/damage rolls
 Hooks.on("preCreateChatMessage", (a, b, c) => {
-  if(!a || !a.data || !a.data.flags || !a.data.flags.dnd5e.roll)
+  if(!a || !a.data || !a.data.flags || !a.data.flags.dnd5e || !a.data.flags.dnd5e.roll)
     return;
   if(a.data.flags.dnd5e.roll.type === "attack") {
     var newFlavourHTML = "<span class='atk-flavor-txt'>" + a.data.flavor + "</span>"
