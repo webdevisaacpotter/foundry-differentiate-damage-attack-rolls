@@ -94,13 +94,13 @@ Hooks.on("renderLongRestDialog", (a, b, c) => {
     });
     var chatMessageData = {
       "content": "<div class=\"secret-gm__block\">"
-        + "Allow " + game.user.name + " [" + game.user.charname + "] to Long Rest?"
+        + "Allow " + game.user.name + " [" + game.user.character.name + "] to Long Rest?"
         + "\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t"
         + "<button class=\"restUserButton userid-" + game.user.id + "\">Yes</button>"
         + "<button class=\"restUserButton\">No</button>"
         + "</div>"
         + "<div class=\"secret-player__flex ve-muted italic help--hover ve-flex-vh-center\" title=\"Wait for GM's response\">"
-        + "Long Rest request for " + game.user.charname + " sent to GM..."
+        + "Long Rest request for " + game.user.character.name + " sent to GM..."
         + "</div>",
       "blind": true,
       "user": game.user.id,
